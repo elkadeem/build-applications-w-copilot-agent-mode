@@ -30,6 +30,9 @@ class Activity(models.Model):
     duration = models.IntegerField()  # Duration in minutes
     date = models.DateField()
 
+    def __str__(self):
+        return f"{self.activity_type} by {self.user} on {self.date}"
+
 class Leaderboard(models.Model):
     _id = ObjectIdField(primary_key=True)
     team = models.ForeignKey(Team, on_delete=models.CASCADE)

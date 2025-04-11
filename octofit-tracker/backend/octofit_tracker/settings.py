@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
+    '127.0.0.1',
     'humble-happiness-4qjr7vw796729w9-8000.app.github.dev'
 ]
 
