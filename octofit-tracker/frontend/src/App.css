@@ -1,96 +1,85 @@
-/* Updated styles for OctoFit Tracker */
+/* Add background color and text styling */
 body {
   background-color: #f0f8ff; /* Light blue background */
-  color: #333; /* Dark text color */
+  color: #333; /* Dark text color for readability */
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+/* Style the app header */
 .App-header {
-  background-color: #4caf50; /* Green header */
-  color: white;
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
   padding: 20px;
-  text-align: center;
-}
-
-.App-logo {
-  height: 80px;
-  margin-right: auto;
-  display: block;
-}
-
-nav {
-  background-color: #333;
-  color: white;
-  padding: 10px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
+/* Add logo styling */
+.App-logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+/* Style navigation menu */
+nav {
+  background-color: #333; /* Dark background */
+  padding: 10px;
+}
 nav a {
-  color: #f0f8ff;
+  color: white; /* White links */
   text-decoration: none;
   margin: 0 10px;
 }
-
 nav a:hover {
   text-decoration: underline;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
+/* Style headings */
+h1, h2, h3 {
+  color: #4caf50; /* Green headings */
 }
 
-table th, table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-table th {
-  background-color: #4caf50;
-  color: white;
-}
-
+/* Style buttons */
 button {
-  background-color: #4caf50;
-  color: white;
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
 }
-
 button:hover {
-  background-color: #45a049;
+  background-color: #45a049; /* Darker green on hover */
 }
 
-h1, h2, h3 {
-  color: #4caf50;
+/* Style tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
 }
-
-.card {
+table th, table td {
   border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  padding: 20px;
+  padding: 8px;
 }
-
-.modal {
-  background-color: rgba(0, 0, 0, 0.5);
+table th {
+  background-color: #4caf50; /* Green header */
   color: white;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-/* Add logo alignment */
-.App-logo {
-  float: left;
-  margin: 10px;
 }
 
 /* Add favicon styling */
-link[rel="icon"] {
-  display: none;
+.App {
+  text-align: center;
+}
+
+/* Add link styling */
+a {
+  color: #4caf50; /* Green links */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
