@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    '[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev'
+    'humble-happiness-4qjr7vw796729w9-8000.app.github.dev'
 ]
 
 

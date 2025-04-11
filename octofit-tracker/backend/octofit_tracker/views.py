@@ -5,9 +5,16 @@ from .serializers import UserSerializer, TeamSerializer, ActivitySerializer, Lea
 
 def api_root(request):
     return JsonResponse({
-        "message": "Welcome to the OctoFit Tracker API!",
-        "codespace_url": "https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev",
-        "localhost_url": "http://localhost:8000"
+        "users": "https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/users/",
+        "teams": "https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/teams/",
+        "activities": "https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/activities/",
+        "leaderboard": "https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/leaderboard/",
+        "workouts": "https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/workouts/",
+        "localhost_users": "http://localhost:8000/api/users/",
+        "localhost_teams": "http://localhost:8000/api/teams/",
+        "localhost_activities": "http://localhost:8000/api/activities/",
+        "localhost_leaderboard": "http://localhost:8000/api/leaderboard/",
+        "localhost_workouts": "http://localhost:8000/api/workouts/"
     })
 
 class UserViewSet(viewsets.ModelViewSet):
