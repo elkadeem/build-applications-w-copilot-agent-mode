@@ -1,0 +1,85 @@
+/* Add background color and text styling */
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color for readability */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the app header */
+.App-header {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Add logo styling */
+.App-logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+/* Style navigation menu */
+nav {
+  background-color: #333; /* Dark background */
+  padding: 10px;
+}
+nav a {
+  color: white; /* White links */
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style headings */
+h1, h2, h3 {
+  color: #4caf50; /* Green headings */
+}
+
+/* Style buttons */
+button {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+table th {
+  background-color: #4caf50; /* Green header */
+  color: white;
+}
+
+/* Add favicon styling */
+.App {
+  text-align: center;
+}
+
+/* Add link styling */
+a {
+  color: #4caf50; /* Green links */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
