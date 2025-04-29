@@ -5,7 +5,7 @@ function Leaderboard() {
   const [leaders, setLeaders] = useState([]);
 
   useEffect(() => {
-    fetch('https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/leaderboard')
+    fetch('https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/leaderboard/')
       .then(response => response.json())
       .then(data => setLeaders(data));
   }, []);

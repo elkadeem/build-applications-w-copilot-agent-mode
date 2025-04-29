@@ -5,7 +5,7 @@ function Workouts() {
   const [workouts, setWorkouts] = useState([]);
 
   useEffect(() => {
-    fetch('https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/workouts')
+    fetch('https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/workouts/')
       .then(response => response.json())
       .then(data => setWorkouts(data));
   }, []);

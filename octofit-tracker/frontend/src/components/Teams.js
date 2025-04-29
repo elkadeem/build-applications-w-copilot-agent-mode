@@ -4,7 +4,7 @@ function Teams() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    fetch('https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/teams')
+    fetch('https://humble-happiness-4qjr7vw796729w9-8000.app.github.dev/api/teams/')
       .then(response => response.json())
       .then(data => setTeams(data));
   }, []);
